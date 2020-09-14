@@ -54,14 +54,26 @@
                 </div>
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form> 
-                        <div> 
-                            <p>Họ và tên<br><input type="text" placeholder="Nhập đầy đủ họ tên... "></p> 
-                            <p>Số điện thoại<br> <input type="text" placeholder="Số điện thoại" ></p> 
-                            <p> Địa chỉ email<br><input type="text" placeholder="Nhập địa chỉ email" ></p> 
-                            <p>Địa chỉ nhận hàng<br><textarea cols="40" rows="5"> </textarea></p> 
-                            <p>Ghi chú đơn hàng <br><textarea cols="40" rows="5"></textarea></p> 
-                        </div> 
+                    <form > 
+                        <table class="infor">
+                            <tr>
+                                <th>Họ và tên</th>
+                                <td><input class="F" type="text" placeholder="Fullname" required></td>
+                            </tr>
+                            <tr>
+                                <th>Số điện thoại</th>
+                                <td><input class="F" type="text" placeholder="phone nummber" required ></td>
+                            </tr>
+                            <tr>
+                                <th>Địa chỉ mail</th>
+                                <td><input type="email" placeholder="email" required></td>
+                            </tr>
+                            <tr>
+                                <th>Lý do liên hệ</th>
+                                <td><textarea cols="40" rows="7" required> </textarea></td>
+                            </tr>
+                                                
+                        </table>
                     </form> 
                 </div>
         
@@ -79,9 +91,9 @@
             <img src="images/logo.png" alt="gaubongmap"/>
         </a>
         <ul class="menu col80">
-            <li><a target="_self" href="C:\WEB-BEAR\index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+            <li><a target="_self" href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
             <li><a target="_self" href="#introduction"><i class="fa fa-info"></i> Giới thiệu</a></li>
-            <li><a target="_self" href="C:\WEB-BEAR\sanpham.html"><i class="fa fa-shopping-basket"></i> Sản Phẩm</a></li>
+            <li><a target="_self" href="sanpham.html"><i class="fa fa-shopping-basket"></i> Sản Phẩm</a></li>
             <li><a target="_self" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-phone"></i> Liên hệ</a></li>
         </ul>
         <div class="clearfix"></div>
